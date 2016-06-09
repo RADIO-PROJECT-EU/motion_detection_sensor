@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<launch>
+	<master auto="start"/>
+
+	<node pkg="motion_detection_sensor_status_publisher" type="execute" respawn="false" name="motion_detection_sensor_status" output="screen" args="gr.demokritos.iit.motion_detection_sensor_java.motion_detection_sensor_status_publisher.MotionDetectionSensorStatusPublisher">
+	</node>	
+
+</launch>
